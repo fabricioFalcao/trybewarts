@@ -17,5 +17,9 @@ main {
 #section1 {
 display:flex;
 flex-wrap: wrap;
+}
 
+#label-family {
+  display: inline-block
+  flex-direction: column;
 }
