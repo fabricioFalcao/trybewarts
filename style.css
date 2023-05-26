@@ -4,6 +4,9 @@ header {
   background-color: rgb(50, 167, 145);
 
 }
+.trybewarts-login{
+  display: flex;
+}
 
 main {
 display: flex;
@@ -28,5 +31,4 @@ flex-wrap: wrap;
 
 #label-family {
 display: inline-block
-flex-direction: column;
 }
