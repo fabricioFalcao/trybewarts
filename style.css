@@ -1,0 +1,21 @@
+main {
+  display: flex;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: lightgray;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+}
+
+#section1 {
+display:flex;
+flex-wrap: wrap;
+
+}
