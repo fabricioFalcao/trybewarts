@@ -1,7 +1,7 @@
 header {
   height: 200px;
   display: flex;
-  background-color: rgb(50, 167, 145).
+  background-color: rgb(50, 167, 145);
 
 }
 
@@ -28,5 +28,4 @@ flex-wrap: wrap;
 
 #label-family {
 display: inline-block
-flex-direction: column;
 }
