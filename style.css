@@ -1,3 +1,7 @@
+body {
+  background-color: lightgray;
+}
+
 header {
   height: 200px;
   display: flex;
@@ -10,24 +14,44 @@ header {
 
 main {
   display: flex;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 #evaluation-form {
   display: flex;
   width: 675px;
   flex-flow: column wrap;
-  background-color: lightgray;
 }
 
 #trybewarts-forms-logo {
   height: 500px;
+  margin-left: 30px;
 }
 
 #section1 {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-#label-family {
-  display: inline-block;
+#section1 :nth-child( 4 ) {
+  align-items: flex-end;
+  flex-grow: 0.55;
+}
+
+
+#preference {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#rating {
+  display: flex;
+
+}
+
+#rating div {
+  flex-direction: column;
+  flex-grow: 1;
 }
