@@ -1,9 +1,9 @@
 body {
-  background-color: lightgray;
+  background-color: rgb(207, 171, 104);
 }
 
 header {
-  height: 130px;
+  height: 100px;
   display: flex;
   background-color: rgb(50, 167, 145);
   justify-content: space-around;
@@ -12,7 +12,7 @@ header {
 }
 
 .trybewarts-header-logo {
-  height: 100px;
+  height: 90px;
 }
 
 .trybewarts-login {
@@ -74,4 +74,9 @@ main {
 
 #submit-btn {
   background-color: blueviolet;
+}
+
+#footer {
+  background-color: rgb(50, 167, 145);
+  text-align: center;
 }
