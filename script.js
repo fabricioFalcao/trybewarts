@@ -9,3 +9,11 @@ button1.addEventListener('click', () => {
     alert('Email ou senha inválidos.');
   }
 });
+
+const button2 = document.querySelector('#submit-btn');
+const agreement = document.getElementById('agreement');
+let toggle = true;
+agreement.addEventListener('input', () => {
+  toggle = !toggle;
+  button2.disabled = toggle;
+});
