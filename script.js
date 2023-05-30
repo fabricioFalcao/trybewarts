@@ -17,3 +17,16 @@ agreement.addEventListener('input', () => {
   toggle = !toggle;
   button2.disabled = toggle;
 });
+
+const counterContainer = document.querySelector('#counterContainer');
+
+const counter = document.createElement('p');
+counter.id = 'counter';
+counter.innerText = 500;
+counterContainer.appendChild(counter);
+
+const textArea = document.querySelector('#textarea');
+
+textArea.addEventListener('keyup', () => {
+  counter.innerText = 500 - textArea.value.length;
+});
