@@ -62,3 +62,12 @@ main {
   flex-direction: column;
   flex-grow: 1;
 }
+
+#textareaContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+#textarea {
+  height: 100px;
+}
