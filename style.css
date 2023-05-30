@@ -3,9 +3,16 @@ body {
 }
 
 header {
-  height: 200px;
+  height: 150px;
   display: flex;
   background-color: rgb(50, 167, 145);
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+}
+
+.trybewarts-header-logo {
+  height: 100px;
 }
 
 .trybewarts-login {
